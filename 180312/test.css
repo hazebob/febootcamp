@@ -1,0 +1,18 @@
+div {
+    font-size: 14px;
+    color:#727272;
+    float: left;
+    padding-left: 12px;
+    padding-right:12px;
+}
+
+div.active {
+    color:#829c00;
+    border-bottom:3px solid #829c00;
+    padding-bottom: 14px;
+}
+
+h1 {
+   color: red; 
+}
+
