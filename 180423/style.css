@@ -1,0 +1,110 @@
+.container1 {
+    background: url(./faux_column_bg.png) 0 0 repeat-y;
+    /* overflow: hidden; */
+}
+
+.container1:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.container1 .col1 {
+    float: left;
+    width: 300px;
+    height: 1000px;
+    /* border-right:1px solid red; */
+}
+
+.container1 .col2 {
+    float: left;
+    width: 500px;
+    /* border-right:1px solid blue; */
+}
+
+.container1 .col3 {
+    float: left;
+    width: 200px;
+}
+
+/* 
+layout 2
+*/
+
+.container2 {
+    background: url(./liquid_bg.png) 25% 0 repeat-y;
+    overflow: auto;
+}
+
+.container2 .col1 {
+    width: 25%;
+    float: left;
+}
+
+.container2 .col2 {
+    width: 75%;
+    height: 500px;
+    float: left;
+}
+
+/* 
+layout3
+ */
+
+ .container3 {
+     display: flex;
+ }
+
+ .container3 .col1 {
+     flex: 1;
+     background: #000;
+ }
+
+ .container3 .col2 {
+     flex: 3;
+     background: #ccc;
+     height: 500px;
+ }
+
+ .container3 .col3 {
+     flex: 1;
+     background: #eee;
+     height: 500px;
+ }
+
+.lsi li {
+    /* list-style-image: url(./star.png); */
+    /* margin: 0 0 0 100px; */
+    padding: 10px 10px 10px 30px;
+    background: url(./star.png) 0 50% no-repeat;
+    background-size: 15px 15px;
+}
+
+.mbg {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+
+    background: 
+        url(./corner_bg1.png) top left no-repeat,
+        url(./corner_bg2.png) top right no-repeat,
+        url(./corner_bg3.png) bottom left no-repeat,
+        url(./corner_bg4.png) bottom right no-repeat;
+}
+
+.container-cs {
+    background: url(./spiral_bg1.png) bottom left no-repeat fixed;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+
+.container-cs .box {
+    background: url(./spiral_bg2.png) bottom left no-repeat fixed;
+    width: 300px;
+    height: 300px;
+
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}

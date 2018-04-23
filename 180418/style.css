@@ -1,0 +1,19 @@
+.box {
+    background: green;
+
+    width: 100px;
+    height: 100px;
+    border:2px solid red;
+    padding: 10px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: brown;
+    border:2px solid blue;
+}
+
+.inner {
+    padding: 10px;
+}
